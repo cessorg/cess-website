@@ -1,0 +1,58 @@
+#bootstrapForm{
+    /* border-radius: 25px; */
+    background-color: #e7ebf3;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+.spans{
+    background-color: #e24747;
+}
+.inputs{
+    background-color: #2f2f2f;
+    color: white;
+}
+.spans1{
+    width: 220px;
+    text-align: center;
+}
+legend{
+    font-weight: bold;
+}
+h1{
+    color: #212121;
+}
+h5{
+    font-size: 20px;
+    color: #e24747;
+    font-weight: bold;
+}
+h1{
+    font-weight: 600;
+}
+#subbtn{
+    background-color: #e24747;
+    border-radius: 10px;
+    width: 40%;
+    margin-top: 20px;
+    text-align: center;
+}
+#formid{
+    width: 100%;
+}
+@media screen and (max-width: 992px) {
+    #subbtn{
+        width: 60%
+    }
+}
+hr{
+    width: 50%;
+    margin: auto;
+    border-top: 2px solid #f2f6f7;
+    border-radius: 50%;
+}
+.form-group textarea{
+    max-height: 200px !important; 
+    min-height: 100px !important;
+}

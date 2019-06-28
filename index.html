@@ -1,0 +1,280 @@
+<html lang="en" dir="ltr">
+    <head>
+        <!-- document meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, shrink-to-fit=no">
+        <meta name="theme-color" content="#e24747">
+        <meta name="apple-mobile-web-app-status-bar-style" content="#212121">
+        <title>CESS - Computer Engineering Student Society | GNDU</title>
+        <!-- favicon -->
+        <link rel="icon" sizes="192x192" href="images/logo/cessicon.png">
+        <link rel="apple-touch-icon" href="images/logo/cessicon.png">
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <!-- stylesheets -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+        <link rel="stylesheet" type="text/css" href="stylesheets/sitefonts.css">
+        <link rel="stylesheet" type="text/css" href="stylesheets/animate.css">
+        <link rel="stylesheet" type="text/css" href="stylesheets/w3.css">
+        <link rel="stylesheet" type="text/css" href="stylesheets/behaviour.css">
+        <link rel="stylesheet" type="text/css" href="stylesheets/headings_design.css">
+        <link rel="stylesheet" type="text/css" href="stylesheets/slick/slick.css">
+        <link rel="stylesheet" type="text/css" href="stylesheets/slick/slick-theme.css">
+        <link rel="stylesheet" type="text/css" href="stylesheets/index_design.css">
+    </head>
+
+<body>
+<!-- loader and goto top button -->
+    <div class="loader animated faster">
+        <div class="box">
+            <div class="ball"></div>
+            <div class="bar"></div>
+        </div>
+    </div>
+    <div class="gotoTopButton">
+        <i class="fas fa-angle-up"></i>
+    </div>
+
+<!-- navigation bar -->
+    <div class="topbar animated bounceInDown">
+        <div class="row">
+            <div class="logo" onclick="window.location='index.html';"><img src="images/logo/cesslogo.png" style="width: 100%;"></div>
+            <div class="nav-bar">
+                <a class="nav-links w3-hide-large" onclick="dropDownMenuControl()"><i class="fas fa-bars"></i></a>
+                <a class="nav-links w3-hide-small w3-hide-medium" href="index.html">Home</a>
+                <a class="nav-links w3-hide-small w3-hide-medium" href="cessteams.html">Teams</a>
+                <a class="nav-links w3-hide-small w3-hide-medium" href="devteam.html">Dev Team</a>
+                <a class="nav-links w3-hide-small w3-hide-medium" href="gallery.html">Gallery</a>
+                <a id="special" class="nav-links w3-hide-small" href="campus.html">Be a Campus Ambassador</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="dropdown animated fast">
+        <a class="nav-links" href="index.html"><i class="fas fa-home"></i> Home</a>
+        <a class="nav-links" href="cessteams.html"><i class="fab fa-teamspeak"></i> Teams</a>
+        <a class="nav-links" href="devteam.html"><i class="fas fa-wrench"></i> Dev Team</a>
+        <a class="nav-links" href="gallery.html"><i class="far fa-image"></i> Gallery</a>
+        <a id="special" class="nav-links w3-hide-large w3-hide-medium" href="campus.html"><i class="fas fa-university"></i> Be a Campus Ambassador</a>
+    </div>
+
+    <div id="landing-header" class="animated fadeIn">
+        <h1>CESS</h1>
+        <h2>Together We Make Difference</h2>
+    </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            
+            </div>
+            <div class="carousel-item">
+
+            </div>
+            <div class="carousel-item">
+
+            </div>
+            <div class="carousel-item">
+
+            </div>
+            <div class="carousel-item">
+
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+<!-- jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+<!-- 2nd Page -->
+	<div class="jumbotron" style="border-radius:0px; background: #f6f7f2;">
+        <div class="row justify-content-center">
+            <span class="content-page-header" style="color: #e24747;">The Team</span>
+        </div>
+        <br>
+        <!--Slider Starts-->
+        <div class="row justify-content-center">
+            <section class="center slider">
+                <div>
+                    <a href="team.html?team=6"><img src="images/cessteam/mohit.jpg" alt="Mohit"></a>
+                </div>
+                <div>
+                    <img src="images/cessteam/rishab.jpg" alt="Rishab">
+                </div>
+                <div>
+                    <a href="team.html?team=1"><img src="images/cessteam/ravgeet.jpg" alt="Ravgeet"></a>
+                </div>
+                <div>
+                    <a href="team.html?team=1"><img src="images/cessteam/puneet.jpg" alt="Puneet"></a>
+                </div>
+                <div>
+                    <a href="team.html?team=5"><img src="images/cessteam/ridhima.jpg" alt="Ridhima"></a>
+                </div>
+                <div>
+                    <a href="team.html?team=5"><img src="images/cessteam/manisha.jpg" alt="Manisha"></a>
+                </div>
+                <div>
+                    <a href="team.html?team=7"><img src="images/cessteam/ashish.jpg" alt="Ashish"></a>
+                </div>
+                <div>
+                    <a href="team.html?team=2"><img src="images/cessteam/parneet.jpg" alt="Parneet"></a>
+                </div>
+                <div>
+                    <a href="team.html?team=3"><img src="images/cessteam/mohitshahi.jpg" alt="Mohit"></a>
+                </div>
+                <div>
+                    <a href="team.html?team=4"><img src="images/cessteam/tushar.jpg" alt="Tushar"></a>
+                </div>
+                <div>
+                    <a href="team.html?team=4"><img src="images/cessteam/rhythm.jpg" alt="Rhythm"></a>
+                </div>
+                <div>
+                    <a href="team.html?team=2"><img src="images/cessteam/chhaya.jpg" alt="Chhaya"></a>
+                </div>
+                <div>
+                    <a href="team.html?team=6"><img src="images/cessteam/rumeet.jpg" alt="Rumeet"></a>
+                </div>
+                <div>
+                    <a href="team.html?team=2"><img src="images/cessteam/jashan.jpg" alt="Jashan"></a>
+                </div>
+                <div>
+                    <a href="team.html?team=7"><img src="images/cessteam/ritika.jpg" alt="Ritika"></a>
+                </div>
+                <div>
+                    <a href="team.html?team=3"><img src="images/cessteam/shreya.jpg" alt="Shreya"></a>
+                </div>
+            </section>
+        </div>
+        <!--Slider Ends-->
+        <br>
+        <div class="row justify-content-center">
+            <a href="cessteams.html" class="btn btn-danger">CESS Teams</a>
+        </div>
+    </div>
+
+    <div class="container-fluid" style="margin-bottom: 32px;">
+        <div class="row justify-content-center">
+            <div class="col-sm-6">
+                <div class="container">
+                    <div class="card text-center">
+                        <h5 class="card-header" style="background: #f6f7f2; margin:0;">Be a Campus Ambassador</h5>
+                        <div class="card-body">
+                            <div class="row align-items-center">
+                                <div class="col-sm-6" style="padding-top:8px; padding-bottom:8px;">
+                                    <p class="card-text">Sign up for our Campus Ambassador program and represent CESS.</p>
+                                </div>
+                                <div class="col-sm-6" style="padding-top:8px; padding-bottom:8px;">
+                                    <a href="campus.html" class="btn btn-danger">Sign Up Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="stylesheets/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script src="javascripts/slider.js" type="text/javascript"></script>
+
+<!-- 3rd page -->
+    <div class="content-page">
+        <span class="content-page-header">What We Do</span>
+        <div class="box-row">
+            <div class="animated bounceInTop box w3-col s12 m6 l6">
+                <div class="box-area">
+                    <span class="content-box-icon"><i class="fas fa-brain"></i></span>
+                    <span class="content-box-header">Development</span>
+                    <span class="content-box-desc">We focus on development, organise various sessions for students that help in enhancing their skills.</span>
+                </div>
+            </div>
+            <div class="animated bounceInRight box w3-col s12 m6 l6">
+                <div class="box-area">
+                    <span class="content-box-icon"><i class="fas fa-users"></i></span>
+                    <span class="content-box-header">Members</span>
+                    <span class="content-box-desc">We have over 300+ members in CESS. All the volunteers and members are categorized into various teams.</span>
+                </div>
+            </div>
+        </div>
+        <div class="box-row">
+            <div class="animated bounceInLeft box w3-col s12 m6 l6">
+                <div class="box-area">
+                    <span class="content-box-icon"><i class="fas fa-hand-rock"></i></span>
+                    <span class="content-box-header">Team Work</span>
+                    <span class="content-box-desc">We work with Technical, Placement, Promotion and many more teams to perform various tasks at CESS.</span>
+                </div>
+            </div>
+            <div class="animated bounceInDown box w3-col s12 m6 l6">
+                <div class="box-area">
+                    <span class="content-box-icon"><i class="fas fa-trophy"></i></span>
+                    <span class="content-box-header">Achievements</span>
+                    <span class="content-box-desc">We undertake various projects, organise competitions where students showcase their skills and win amazing prizes.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- 4th page -->
+    <div class="contact-area">
+        <div class="justify-content-center">
+            <span class="content-page-header" style="color: #e24747;">Where We Are</span>
+        </div>
+        <div class="row">
+            <div class="map">
+                    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3710.0903379593337!2d74.82266940040482!3d31.63555235282635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39196527ad161459%3A0x54264c4d70431613!2sMaharaja+Ranjit+Singh+Bhawan!5e0!3m2!1sen!2sin!4v1544354248309" frameborder=0 allowfullscreen></iframe>
+            </div>
+            <div class="address-box">
+                <div class="box">
+                    <i class="fas fa-location-arrow"></i>
+                    <span class="head">CESS Workspace</span>
+                    <br><br>
+                    <span style="clear: both;">Guru Nanak Dev University<br>Amritsar, Punjab<br>143005</span>
+                    <br><br><br>
+                    <i class="fas fa-phone" style="clear:both;"></i>
+                    <span class="head">CESS Contacts</span>
+                    <br><br>
+                    <span style="clear: both;">Rishab Chawla : 8968622195</span>
+                    <br>
+                    <span style="clear: both;">Mohit Sharma : 8872460311</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- 5th page -->
+    <div class="footer-area">
+        <div class="row">
+            <div class="social">
+                <a href="https://www.youtube.com/channel/UC4vWMpbj0TEke-LI0XLI2vQ/" target="_blank"><i id="youtube" class="fab fa-youtube social-icon"></i></a>
+                <a href="https://www.facebook.com/gnducess/" target="_blank"><i id="facebook" class="fab fa-facebook social-icon"></i></a>
+                <a href="https://www.instagram.com/cess.gndu/" target="_blank"><i id="instagram" class="fab fa-instagram social-icon"></i></a>
+                <a href="https://cessgndu.slack.com/" target="_blank"><i id="slack" class="fab fa-slack-hash social-icon"></i></a>
+            </div>
+            <div>
+                <p class="copy">&copy; CESS 2019</p>
+            </div>
+            <p class="team">Made with <i class="fas fa-heart" style="color:#ff0000;"></i> by <a href="devteam.html">Cess Code Squad</a></p>
+        </div>
+    </div>
+
+    <script src="javascripts/app.js"></script>
+</body>
+</html>

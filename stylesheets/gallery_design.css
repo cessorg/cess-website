@@ -1,0 +1,90 @@
+.holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+.holder .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90vw;
+    max-width: 1269px;
+    flex-direction: column-reverse;
+}
+.holder .row .box{
+    display: flex;
+    align-items: stretch;
+    width: 90%;
+    padding: 16px;
+}
+.holder .row .box .img-holder{
+    flex: 2;
+    background: url("../images/back/2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 400px;
+}
+.holder .row .box .content{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 16px 12px;
+    border: 1px solid rgba(226, 71, 71, 0.5);
+    border-left: none;
+    border-radius: 0px 8px 8px 0px;
+    background: rgba(33, 33, 33, 0.01);
+    color: #212121;
+}
+.holder .row .box .content .social{
+    display: flex;
+}
+.holder .row .box .content .social i{
+    font-size: 30px;
+    color: rgba(33, 33, 33, 0.5);
+    transition: 0.2s;
+    margin-right: 12px;
+}
+@media only screen and (min-width: 801px) and (max-width: 1125px){
+    .holder .row .box{
+        width: 100%;
+    }
+    .holder .row .box .img-holder{
+        flex: 1.5;
+        min-height: 300px;
+    }
+}
+@media only screen and (max-width: 800px){
+    .holder .row{
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .holder .row .box{
+        flex-direction: column;
+        width: 100%;
+        padding: 16px 2px;
+    }
+    .holder .row .box .img-holder{
+        min-height: 240px;
+    }
+    .holder .row .box .content{
+        flex-direction: column;
+        width: 100%;
+        border: none;
+        border-top: none;
+        border-radius: 0;
+    }
+    .holder .row .box .content .social{
+        margin-top: 8px;
+        width: 100%;
+        justify-content: space-evenly
+    }
+    .holder .row .box .content .social i{
+        margin-right: 0;
+    }
+}

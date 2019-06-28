@@ -1,0 +1,38 @@
+.holder{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30vw;
+    padding: 16px;
+}
+.box h1{
+    color: rgba(226, 71, 71, 1);
+    font-size: 6em;
+}
+.box a{
+    margin-top: -10px;
+    text-decoration: none;
+    color: rgba(226, 71, 71, 0.85);
+    transition: 0.2s;
+}
+.box a:hover{
+    margin-top: -10px;
+    text-decoration: none;
+    color: rgba(226, 71, 71, 1);
+}
+
+@media only screen and (max-width: 740px){
+    .box{
+        width: 100vw;
+    }
+    .box a{
+        color: rgba(226, 71, 71, 1);
+    }
+}

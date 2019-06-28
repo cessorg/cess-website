@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, shrink-to-fit=no">
+		<meta name="theme-color" content="#e24747">
+		<meta name="apple-mobile-web-app-status-bar-style" content="#212121">
+		<title>CESS Development Team - Computer Engineering Student Society | GNDU</title>
+		<!-- favicon -->
+		<link rel="icon" sizes="192x192" href="images/logo/cessicon.png">
+		<link rel="apple-touch-icon" href="images/logo/cessicon.png">
+		<!-- bootstrap -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<!-- stylesheets -->
+		<link rel="stylesheet" type="text/css" href="stylesheets/sitefonts.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+		<link rel="stylesheet" type="text/css" href="stylesheets/animate.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/w3.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/behaviour.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/index_design.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/headings_design.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/devteam_design.css">
+	</head>
+
+<body>
+<!-- loader and goto top button -->
+    <div class="loader animated faster">
+        <div class="box">
+            <div class="ball"></div>
+            <div class="bar"></div>
+        </div>
+    </div>
+    <div class="gotoTopButton">
+        <i class="fas fa-angle-up"></i>
+    </div>
+
+<!-- navigation bar -->
+    <div class="topbar animated bounceInDown">
+        <div class="row">
+            <div class="logo" onclick="window.location='index.html';"><img src="images/logo/cesslogo.png" style="width: 100%;"></div>
+            <div class="nav-bar">
+                <a class="nav-links w3-hide-large" onclick="dropDownMenuControl()"><i class="fas fa-bars"></i></a>
+                <a class="nav-links w3-hide-small w3-hide-medium" href="index.html">Home</a>
+                <a class="nav-links w3-hide-small w3-hide-medium" href="cessteams.html">Teams</a>
+                <a class="nav-links w3-hide-small w3-hide-medium" href="devteam.html">Dev Team</a>
+                <a class="nav-links w3-hide-small w3-hide-medium" href="gallery.html">Gallery</a>
+                <a id="special" class="nav-links w3-hide-small" href="campus.html">Be a Campus Ambassador</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="dropdown animated fast">
+        <a class="nav-links" href="index.html"><i class="fas fa-home"></i> Home</a>
+        <a class="nav-links" href="cessteams.html"><i class="fab fa-teamspeak"></i> Teams</a>
+        <a class="nav-links" href="devteam.html"><i class="fas fa-wrench"></i> Dev Team</a>
+        <a class="nav-links" href="gallery.html"><i class="far fa-image"></i> Gallery</a>
+        <a id="special" class="nav-links w3-hide-large w3-hide-medium" href="campus.html"><i class="fas fa-university"></i> Be a Campus Ambassador</a>
+    </div>
+
+	<!-- javascript codes -->
+	<!-- jQuery library -->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+	<div class="title-holder">
+		<div class="row">
+			<div class="box" onclick="window.location='http://google.com';">
+				<div class="content">
+					<h1>The Creators</h1>
+				</div>
+			</div>
+			<div class="box">
+				<div class="content" style="flex-direction: column;">
+					<p>
+						These are those men and women who put their soul into the work they did, to create a stylish, elegant and user friendly website for CESS. These 9 pretty and hard working individuals with different levels of skills did their absolute best to provide CESS with a brand new look.
+					</p>
+					<p>
+						Take a minute to appreciate the super cool work done by these individuals.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container" style="margin-top: 80px; margin-bottom: 80px;">
+		<div class="row">
+			<div class="box col-md-4 col-sm-12">
+				<div class="our-team">
+					<div class="pic">
+						<img src="images/cessteam/ridhima.jpg">
+					</div>
+					<div class="team-content">
+						<h3 class="title">Ridhima Aggarwal</h3>
+						<span class="post">Front End and JS Writer</span>
+					</div>
+					<ul class="social">
+						<li><a href="https://www.facebook.com/ridhima.aggarwal.986"><i class="fab fa-facebook-f"></i></a></li>
+						<li><a href="https://www.instagram.com/ridhima182/"><i class="fab fa-instagram"></i></a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="box col-md-4 col-sm-12">
+				<div class="our-team">
+					<div class="pic">
+						<img src="images/cessteam/ravgeet.jpg">
+					</div>
+					<div class="team-content"> 
+						<h3 class="title">Ravgeet Dhillon</h3>
+						<span class="post">Dev Team Head and Site Designer</span>
+					</div>
+					<ul class="social">
+						<li><a href="https://www.facebook.com/ravgeet.dhillon/"><i class="fab fa-facebook-f"></i></a></li>
+						<li><a href="https://twitter.com/RavgeetRocks/"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="https://instagram.com/ravd_ravgeet/"><i class="fab fa-instagram"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/ravgeet-dhillon-a16110123/"><i class="fab fa-linkedin-in"></i></a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="box col-md-4 col-sm-12">
+				<div class="our-team">
+					<div class="pic">
+						<img src="images/cessteam/mohit.jpg">
+					</div>
+					<div class="team-content"> 
+						<h3 class="title">Mohit Sharma</h3>
+						<span class="post">Forms Designer and Node js Developer</span>
+					</div>
+					<ul class="social">
+						<li><a href="https://www.instagram.com/_mohit._.sharma_/"><i class="fab fa-instagram"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="box col-md-4 col-sm-12">
+				<div class="our-team">
+					<div class="pic">
+						<img src="images/cessteam/rishab.jpg">
+					</div>
+					<div class="team-content"> 
+						<h3 class="title">Rishab Chawla</h3>
+						<span class="post">Full Stack Manager</span>
+					</div>
+					<ul class="social">
+						<li><a href="https://www.instagram.com/rishabchawla23/"><i class="fab fa-instagram"></i></a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="box col-md-4 col-sm-12">
+				<div class="our-team">
+					<div class="pic">
+						<img src="images/cessteam/bharat.jpg">
+					</div>
+					<div class="team-content"> 
+						<h3 class="title">Bharat Nischal</h3>
+						<span class="post">UI/UX Designer</span>
+					</div>
+					<ul class="social">
+						<li><a href="https://www.facebook.com/profile.php?id=100017445368356"><i class="fab fa-facebook-f"></i></a></li>
+						<li><a href="https://github.com/BharatNischal"><i class="fab fa-github"></i></a></li>
+						<li><a href="https://www.instagram.com/bharatnischal/"><i class="fab fa-instagram"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/bharat-nischal-06b888165"><i class="fab fa-linkedin-in"></i></a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="box col-md-4 col-sm-12">
+				<div class="our-team">
+					<div class="pic">
+						<img src="images/cessteam/mahima.jpg">
+					</div>
+					<div class="team-content"> 
+						<h3 class="title">Mahima Kalra</h3>
+						<span class="post">Front End and Site Manager</span>
+					</div>
+					<ul class="social">
+						<li><a href="https://www.facebook.com/mahi.kalra.526"><i class="fab fa-facebook-f"></i></a></li>
+						<li><a href="https://github.com/mahi23mk"><i class="fab fa-github"></i></a></li>
+						<li><a href="https://www.instagram.com/mahima.kalra23/"><i class="fab fa-instagram"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="box col-md-4 col-sm-12">
+				<div class="our-team">
+					<div class="pic">
+						<img src="images/cessteam/rumeet.jpg">
+					</div>
+					<div class="team-content"> 
+						<h3 class="title">Rumeet Singh</h3>
+						<span class="post">Front End Designer and Styling Expert</span>
+					</div>
+					<ul class="social">
+						<li><a href="https://www.facebook.com/rumeet.singh.16"><i class="fab fa-facebook-f"></i></a></li>
+						<li><a href="https://www.instagram.com/rumeet._.singh/"><i class="fab fa-instagram"></i></a></li>
+						<li><a href="https://twitter.com/rumeet_bti?s=08"><i class="fab fa-twitter"></i></a></li>	
+					</ul>
+				</div>
+			</div>
+
+			<div class="box col-md-4 col-sm-12">
+				<div class="our-team">
+					<div class="pic">
+						<img src="images/cessteam/swati.jpg">
+					</div>
+					<div class="team-content"> 
+						<h3 class="title">Swati Salwan</h3>
+						<span class="post">Front End Designer</span>
+					</div>
+					<ul class="social">
+						<li><a href="https://www.instagram.com/swati_salwan/"><i class="fab fa-instagram"></i></a></li>			
+					</ul>
+				</div>
+			</div>
+
+			<div class="box col-md-4 col-sm-12">
+				<div class="our-team">
+					<div class="pic">
+						<img src="images/cessteam/akshit.jpg">
+					</div>
+					<div class="team-content"> 
+						<h3 class="title">Akshit Bhatia</h3>
+						<span class="post">Front End Designer</span>
+					</div>
+					<ul class="social">
+						<li><a href="https://www.instagram.com/_.akshit._/"><i class="fab fa-facebook-f"></i></a></li>
+						<li><a href="https://github.com/ak-bhatia"><i class="fab fa-github"></i></a></li>
+						<li><a href="https://www.instagram.com/_.akshit._/"><i class="fab fa-instagram"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/akshit-bhatia-529572158"><i class="fab fa-linkedin-in"></i></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<div class="footer-area">
+	<div class="row">
+		<div class="social">
+			<a href="https://www.youtube.com/channel/UC4vWMpbj0TEke-LI0XLI2vQ/" target="_blank"><i id="youtube" class="fab fa-youtube social-icon"></i></a>
+			<a href="https://www.facebook.com/gnducess/" target="_blank"><i id="facebook" class="fab fa-facebook social-icon"></i></a>
+			<a href="https://www.instagram.com/cess.gndu/" target="_blank"><i id="instagram" class="fab fa-instagram social-icon"></i></a>
+			<a href="https://cessgndu.slack.com/" target="_blank"><i id="slack" class="fab fa-slack-hash social-icon"></i></a>
+		</div>
+		<div>
+			<p class="copy">&copy; CESS 2019</p>
+		</div>
+		<p class="team">Made with <i class="fas fa-heart" style="color:#ff0000;"></i> by <a href="devteam.html">Cess Code Squad</a></p>
+	</div>
+</div>
+
+
+<script src="javascripts/app.js"></script>
+
+</body>
+</html>

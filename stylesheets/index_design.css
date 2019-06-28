@@ -1,0 +1,237 @@
+body{
+    background: none;
+}
+
+/* slider design */
+.carousel-item
+{
+    height: 100vh;
+}
+#carouselExampleIndicators
+{
+    height: 100vh;
+}
+.carousel-item:nth-child(1)
+{
+    background:linear-gradient(-45deg, rgba(113, 0, 0, 0.2),rgba(0, 0, 0, 0.9)), url("../images/back/1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-item:nth-child(2)
+{
+    background:linear-gradient(-45deg, rgba(113, 0, 0, 0.2),rgba(0, 0, 0, 0.9)), url("../images/back/2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-item:nth-child(3)
+{
+    background:linear-gradient(-45deg, rgba(113, 0, 0, 0.2),rgba(0, 0, 0, 0.9)), url("../images/back/3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-item:nth-child(4)
+{
+    background:linear-gradient(-45deg, rgba(113, 0, 0, 0.2),rgba(0 , 0, 0, 0.9)), url("../images/back/4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-item:nth-child(5)
+{
+    background:linear-gradient(-45deg, rgba(113, 0, 0, 0.2),rgba(0, 0, 0, 0.9)), url("../images/back/5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.center{
+    margin-left: 30%;
+}
+#landing-header {
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 50%;
+    min-width: 70%;
+    transform: translate(-50%,0%);
+
+}
+#landing-header h1 {
+	font-family: 'Raleway', sans-serif;
+    color: #E24747;
+    font-size: 6em;
+    font-weight: bolder;
+}
+#landing-header h2 {
+	font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+    font-size: 3em;
+}
+
+@media screen and (max-width: 769px)
+{
+	#landing-header {
+		z-index: 1;
+	    position: absolute;
+	    text-align: center;
+	    top: 37%;
+	    left: 50%;
+	    min-width: 70%;
+	    transform: translate(-50%,0%);
+	}
+    #landing-header h1 {
+        color: #e24747;
+        font-size: 4em;
+        font-weight: bold;
+    }
+    #landing-header h2 {
+        color: #fff;
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    /* ------------- */
+}
+
+/* 2nd page */
+.slider {
+    width: 80%;
+    margin: 10px auto;
+}
+.slick-slide {
+    margin: 0px 20px;
+}
+.slick-slide img {
+    width: 12rem;
+}
+.slick-prev:before,
+.slick-next:before {
+    color: #212121;
+}
+.slick-active {
+    opacity: 1;
+}
+.slick-current {
+    opacity: 1;
+}
+
+/* 3rd Page */
+.content-page
+{
+    background: linear-gradient(135deg, #E24747, #ED4949);
+    overflow: hidden;
+    padding-bottom: 40px;
+}
+.content-page-header{
+    color: #FFFFFF;
+    text-align: center;
+    display: block;
+    font-size: 44px;
+    margin: 30px 0px;
+    font-family: 'Raleway', sans-serif;
+}
+.box-row{
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px 0px;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+.content-page .box{
+    display: flex;
+    align-items: stretch;
+    padding: 16px 28px;
+}
+.box-area{
+    background: #CE4141;
+    text-align: center;
+    color: #212121;
+    padding: 32px;
+    border-radius: 4px;
+    border: 1px solid rgba(33,33,33,0.1);
+}
+.content-box-icon i{
+    font-size: 60px;
+    display: block;
+}
+.content-box-header{
+    font-size: 28px;
+    display: block;
+    margin: 24px 0px 16px;
+}
+.content-box-desc{
+    font-size: 16px;
+    display: block;
+    text-align: justify-all;
+}
+
+
+/* 4th page */
+.contact-area{
+    background: #f6f7f2;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    padding-bottom: 40px;
+}
+
+.contact-area .row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact-area .row .map{
+    width:50%;
+}
+
+.contact-area .row .map iframe{
+    width: 100%;
+    height: 70vh;
+    border: 0;
+}
+
+.address-box{
+    display:flex;
+    justify-content: center;
+}
+
+.address-box .box{
+    color: #212121;
+    border: 1px solid #E24747;
+    padding: 32px 44px;
+}
+
+.address-box i{
+    font-size: 20px;
+    margin-right: 8px;
+    float: left;
+}
+
+.address-box .head{
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+@media only screen and (max-width:769px){
+    .content-page .box{
+        width: 100%;
+    }
+    .box-row{
+        padding: 0px;
+    }
+    .contact-area .row .map{
+        width: 100%;
+        padding: 16px 32px;
+    }
+    .address-box{
+        display:flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+}
