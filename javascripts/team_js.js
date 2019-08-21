@@ -22,167 +22,167 @@ var heads = ["",
     new headsInfo(
         1,
         1,
-        "Ravgeet",
-        "Dhillon",
+        "Rumeet",
+        "Singh",
         "https://www.facebook.com/ravgeet.dhillon/",
         "https://instagram.com/ravd_ravgeet/",
         "https://www.linkedin.com/in/ravgeet-dhillon-a16110123/",
         "https://twitter.com/RavgeetRocks/",
-        "images/cessteam/ravgeet.jpg"
+        "images/cessteam/rumeet.jpg"
     ),
     new headsInfo(
         2,
         1,
-        "Puneet",
-        "Saini",
+        "Harmandeep",
+        "Singh",
         "https://facebook.com",
         "https://www.instagram.com/puneetsaini/",
         "https://linkedin.com",
         "https://twitter.com",
-        "images/cessteam/puneet.jpg"
+        "images/cessteam/new_harman.jpg"
     ),
     new headsInfo(
         3,
-        2,
-        "Chhaya",
-        "Anand",
+        1,
+        "Bharat",
+        "Nischal",
         "https://facebook.com",
         "https://www.instagram.com/chhaya_07/",
         "https://linkedin.com",
         "https://twitter.com",
-        "images/cessteam/chhaya.jpg"
+        "images/cessteam/new_bharat.jpg"
     ),
     new headsInfo(
         4,
         2,
-        "Jashan",
-        "Hans",
+        "Madhav",
+        "Chopra",
         "https://facebook.com",
         "https://www.instagram.com/jashan._.hans/",
         "https://linkedin.com",
         "https://twitter.com",
-        "images/cessteam/jashan.jpg"
+        "images/cessteam/new_madhav.jpg"
     ),
     new headsInfo(
         5,
         2,
-        "Parneet",
-        "Kaur",
+        "Guntash",
+        "",
         "https://facebook.com",
         "https://www.instagram.com/parneet___kaur/",
         "https://linkedin.com",
         "https://twitter.com",
-        "images/cessteam/parneet.jpg"
+        "https://www.w3schools.com/bootstrap4/img_avatar3.png"
     ),
     new headsInfo(
         6,
         3,
-        "Shreya",
+        "Riya",
         "Mittal",
         "https://facebook.com",
         "https://www.instagram.com/i__am_shreyamittal/",
         "https://linkedin.com",
         "https://twitter.com",
-        "images/cessteam/shreya.jpg"
+        "images/cessteam/new_riya.jpg"
     ),
     new headsInfo(
         7,
         3,
-        "Mohit",
-        "Shahi",
+        "Kriti",
+        "Rikhi",
         "https://facebook.com",
         "https://www.instagram.com/mohit_shahi/",
         "https://linkedin.com",
         "https://twitter.com",
-        "images/cessteam/mohitshahi.jpg"
+        "https://www.w3schools.com/bootstrap4/img_avatar5.png"
     ),
     new headsInfo(
         8,
         4,
-        "Rhythm",
+        "Divyakshi",
         "",
         "https://facebook.com",
         "https://www.instagram.com/rhythm.sparks/",
         "https://linkedin.com",
         "https://twitter.com",
-        "images/cessteam/rhythm.jpg"
+        "https://www.w3schools.com/bootstrap4/img_avatar5.png"
     ),
     new headsInfo(
         9,
         4,
-        "Tushar",
-        "Sharma",
+        "Gagandeep",
+        "Singh",
         "https://facebook.com",
         "https://www.instagram.com/_tushar_sharma._/",
         "https://linkedin.com",
         "https://twitter.com",
-        "images/cessteam/tushar.jpg"
+        "https://www.w3schools.com/bootstrap4/img_avatar3.png"
     ),
     new headsInfo(
         10,
         5,
-        "Manisha",
-        "Mittal",
+        "Devanshi",
+        "Aggarwal",
         "https://facebook.com",
         "https://www.instagram.com/manishamittal14/",
         "https://linkedin.com",
         "https://twitter.com",
-        "images/cessteam/manisha.jpg"
+        "https://www.w3schools.com/bootstrap4/img_avatar5.png"
     ),
     new headsInfo(
         11,
         5,
-        "Ridhima",
-        "Aggarwal",
+        "Shruti",
+        "",
         "https://www.facebook.com/ridhima.aggarwal.986",
         "https://www.instagram.com/ridhima182/",
         "https://linkedin.com",
         "https://twitter.com",
-        "images/cessteam/ridhima.jpg"
+        "https://www.w3schools.com/bootstrap4/img_avatar5.png"
     ),
     new headsInfo(
         12,
         6,
-        "Rumeet",
+        "Manjot",
         "Singh",
         "https://facebook.com",
         "https://www.instagram.com/rumeet._.singh/",
         "https://linkedin.com",
         "https://twitter.com",
-        "images/cessteam/rumeet.jpg"
+        "images/cessteam/new_manjot.jpg"
     ),
     new headsInfo(
         13,
         6,
-        "Mohit",
-        "Sharma",
+        "Akshit",
+        "Bhatia",
         "https://facebook.com",
         "https://www.instagram.com/_mohit._.sharma_/",
         "https://linkedin.com",
         "https://twitter.com",
-        "images/cessteam/mohit.jpg"
+        "images/cessteam/new_akshit.jpg"
     ),
     new headsInfo(
         14,
         7,
-        "Ritika",
-        "Dhamija",
+        "Geetanjali",
+        "",
         "https://facebook.com",
         "https://www.instagram.com/dhamija_ritika/",
         "https://linkedin.com",
         "https://twitter.com",
-        "images/cessteam/ritika.jpg"
+        "https://www.w3schools.com/bootstrap4/img_avatar5.png"
     ),
     new headsInfo(
         15,
         7,
-        "Ashish",
-        "Oberoi",
+        "Ayush",
+        "Kaushik",
         "https://www.facebook.com/ashishoberoi.veni.vidi.vici",
         "https://www.instagram.com/_ashishoberoi_/",
         "https://www.linkedin.com/in/ashish-oberoi-b7116a137",
         "https://twitter.com",
-        "images/cessteam/ashish.jpg"
+        "images/cessteam/new_ayushkaushik.jpg"
     ),
     new headsInfo(
         16,
@@ -193,7 +193,7 @@ var heads = ["",
         "https://www.instagram.com/ashish.kheveria/",
         "https://linkedin.com",
         "https://twitter.com",
-        "images/cessteam/"
+        "https://www.w3schools.com/bootstrap4/img_avatar3.png"
     ),
     new headsInfo(
         17,
@@ -204,7 +204,7 @@ var heads = ["",
         "https://instgram.com",
         "https://linkedin.com",
         "https://twitter.com",
-        "images/cessteam/"
+        "https://www.w3schools.com/bootstrap4/img_avatar3.png"
     )
 ];
 
