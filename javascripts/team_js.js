@@ -205,7 +205,29 @@ var heads = ["",
         "https://linkedin.com",
         "https://twitter.com",
         "https://www.w3schools.com/bootstrap4/img_avatar3.png"
-    )
+    ),
+    new headsInfo(
+        18,
+        4,
+        "Manik",
+        "Clair",
+        "https://facebook.com",
+        "https://instgram.com",
+        "https://linkedin.com",
+        "https://twitter.com",
+        "https://www.w3schools.com/bootstrap4/img_avatar3.png"
+    ),
+    new headsInfo(
+        19,
+        3,
+        "Harman",
+        "Singh",
+        "https://facebook.com",
+        "https://instgram.com",
+        "https://linkedin.com",
+        "https://twitter.com",
+        "https://www.w3schools.com/bootstrap4/img_avatar3.png"
+    ),
 ];
 
 var teams = ["",
