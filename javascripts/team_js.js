@@ -72,7 +72,7 @@ var heads = ["",
         "https://www.instagram.com/parneet___kaur/",
         "https://linkedin.com",
         "https://twitter.com",
-        "https://www.w3schools.com/bootstrap4/img_avatar3.png"
+        "https://www.w3schools.com/bootstrap4/img_avatar5.png"
     ),
     new headsInfo(
         6,
@@ -171,7 +171,7 @@ var heads = ["",
         "https://www.instagram.com/dhamija_ritika/",
         "https://linkedin.com",
         "https://twitter.com",
-        "https://www.w3schools.com/bootstrap4/img_avatar5.png"
+        "images/cessteam/new_geet.jpg"
     ),
     new headsInfo(
         15,
